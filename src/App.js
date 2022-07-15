@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import CountriesList from "./components/CountriesList";
 import {Routes,Route} from "react-router-dom"
 import CountryDetails from "./components/CountryDetails";
+import React from 'react';
+import axios from 'axios';
 
 function App() {
   return <div className="App">
